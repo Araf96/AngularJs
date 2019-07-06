@@ -1,4 +1,4 @@
-1.Procedures:__
+1.Procedures:</br>
 a. Unzip the zipped file named "Website".
 b. Open the "StudentInfo.html" file using any browser(I've tested with "Google chrome" and "Opera").
 c. After opening the .html file, a page will appear containing informations about students.
