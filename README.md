@@ -1,4 +1,4 @@
-1.Procedures:
+1.Procedures:__
 a. Unzip the zipped file named "Website".
 b. Open the "StudentInfo.html" file using any browser(I've tested with "Google chrome" and "Opera").
 c. After opening the .html file, a page will appear containing informations about students.
@@ -14,12 +14,9 @@ c. Inside the controller function you will find an object called "students".
 
 
 2.1 How to add information:
-a. To add an element at the bottom use 
-$scope.students.push('informations you want to add')
+a. To add an element at the bottom use "$scope.students.push('informations you want to add')"
 statement.
-b. To add an element at the top use 
-$scope.students.unshift('informations you want to add')
-statement.
+b. To add an element at the top use "$scope.students.unshift('informations you want to add')"statement.
 
 2.2 How to delete information:
 a. To delete an element from top use "$scope.students.shift()" statement below this "$scope.students = students;".
