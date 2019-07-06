@@ -1,0 +1,37 @@
+<!doctype html>
+<html ng-app="myModule">
+<head>
+  <script src = "Scripts/angular.min.js"></script>
+  <script src = "Scripts/Script.js"></script>
+</head>
+<body ng-controller="myController">
+  <p><link rel="stylesheet" type="text/css" href="style.css"></p>
+    <main class="mainClass">  
+      <div data-table_id="1">
+        <header class="table_header">
+          <h2 class="shine">Students Information</h2>
+          <div class="row">
+            <div class="col _stdId">Student Id.</div>
+            <div class="col _firstName">First Name</div>
+            <div class="col _lastName">Last Name</div>
+            <div class="col _section">Section</div>
+            <div class="col _department">Department</div>
+            <div class="col _university">University</div>
+            <div class="col _gender">Gender</div>
+          </div>
+        </header>
+        <div class="my_table" ng-repeat="std in students">
+          <div class="row">
+            <div class="col _stdId">{{std.studentId}}</div>
+            <div class="col _firstName">{{std.firstName}}</div>
+            <div class="col _lastName">{{std.lastName}}</div>
+            <div class="col _section">{{std.section}}</div>
+            <div class="col _department">{{std.department}}</div>
+            <div class="col _university">{{std.university}}</div>
+            <div class="col _gender">{{std.gender}}</div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
